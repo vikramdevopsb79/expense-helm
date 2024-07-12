@@ -6,3 +6,6 @@ replicas: 1
 env: {}
 schemaJob:
   enabled: false
+ingress:
+  enabled: true
+  name: frontend-dev.vikramdevops.tech
