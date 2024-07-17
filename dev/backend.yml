@@ -9,7 +9,7 @@ env:
   login_user: admin1
   login_password: ExpenseApp123
   login_host: dev-rds.cxs0uiggav0o.us-east-1.rds.amazonaws.com
-  app_repo: "https://github.com/vikramdevopsb79/expense-backend"
+  app_repo: "https://github.com/vikramdevopsorg/expense-backend"
   schema_file: /app/schema/backend.sql
 
 schemaJob:
