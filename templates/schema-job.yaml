@@ -11,7 +11,7 @@ spec:
           image: docker.io/saivikram2020251/schema-load
           envFrom:
             - configMapRef:
-                name: { { .Values.appName } }
+                name: {{ .Values.appName }}
       restartPolicy: Never
   backoffLimit: 4
-  {{- end }}
+{{- end }}
