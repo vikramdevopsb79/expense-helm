@@ -8,4 +8,4 @@ schemaJob:
   enabled: false
 ingress:
   enabled: true
-  name: frontend-dev.vikramdevops.tech
+  name: frontend-dev.vikramdevops.store
